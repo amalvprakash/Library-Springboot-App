@@ -12,4 +12,8 @@ public class LibraryController {
         return "home page";
     }
 
+    @PostMapping("/addBooks")
+    public String AddBooks(){
+        return "Add books";
+    }
 }
